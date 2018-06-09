@@ -1,0 +1,36 @@
+body{
+	font-family: Fredoka One, cursive;
+}
+
+ul {
+	background-color: #FFDB00;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	border: 2px solid Black;
+}
+
+li{
+	float: left;
+	border-left: 2px solid Black;
+}
+
+li a {
+	float: left;
+    display: block;
+    color: Black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+li a:hover {
+	background-color: #E3C300;
+    color: black;
+}
+li a.active {
+    background-color: White;
+    color: white;
+}
